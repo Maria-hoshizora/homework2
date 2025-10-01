@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-2</title>
+    <style>
+        header {
+            height: 60px;
+            background: #b5a6c4;
+        }
+
+        a {
+            color: #000;
+        }
+
+        .quote-block {
+            background: #d9b8b8;
+        }
+
+        .footer-block {
+            height: 300px;
+            background: #c9a814;
+            color: #ffffff;
+        }
+
+        footer a {
+            color: #ffffff;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#section">первая секция</a>
+            <a href="#section-2">вторая секция</a>
+        </nav>
+    </header>
+    <main>
+        <h1>
+            Заголовок
+        </h1>
+        <section id="первая">
+            <h2>
+                Та самая первая секция
+            </h2>
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAA8FBMVEXY7P4AAAD///+DdoPs7/Gnm6c+Pj7v7+/y9fepqan/4Xfc8f/T1teMjo93a3dxe4WWpLDN4PI3Mjc9Nz3n6uxDRUW9vsEsMDSmtcLExsleVV4TFRfE4v8oKCgaGBqJf4mYjZh9fIDD4f+VrMIPDg90bHT/53peXl6Ac4ByZnIaGhpvb2/Y291jWWNzZ3P423RSUlKtra2dn6FndoVIQUhfVl8lIRFQSFCmkk0lISU8NRxYTikdGQ3t0W6Dcz0kICSGiIlXX2YlKzEtLi24ydhlZ2dHPyG4o1bMtV9lWS/exGg1LxmVhEZORSSGdj6znVRL5PchAAAGuElEQVR4nO3d4XqaSBQG4KCuYoq2VXRLsia1pQajGKAmapNUu2m6SZq29383q3JAVKBAgeHwnO+fMeSZV4YZnBkyB4W854B1ARIPCfGHhPhDQvwhIf6QEH88hHwFX/igQtEYaK0yxrS0gSH+VqiXOdwp635CXpdZFzCGyDrvJRTOWBcuptwL7sI29gq6ibOqboTVO9blijF31X2hfs66VLHmXN8VCo42RjMkAWMkQ9sgZGFHuAF2hyW8GXZtx/G28N4+fwLPupR/FF6wz+PAKZSsi/BexA1cEkXrbJ1LDuEAfnjGunyx5GzrJK6FEvSELQF+h8cZKL3QMjllyRYagNbBN6zWMKY6BKMOHsMSVqCS3kMrWtU6GO9P5Y5WNQFDuBQHFRBaZ7W6/gh4AyPPjGyYhKr5siWAsG22pGVp9Tbfxnxzc942DXfwCoRQbc1KKi4YFvDPUxPXbQ00pzoI4Zx2zTc178MRRFt3B0NoWXaEC7Opxf0dyuzwxK75qrotrPEO4fmXl3jycZkvx+tylwML/371Gk/eLfP+37DCNy8O0OSfZfItfEdCEmY+JCRh9kNCEmY/JCRh9kNCEmY/JCRh9kNCEmY/JCRh9kNCEmY/SIQvImc1M3NgC1fLTrIp/Poqct4v83G+LvddTa8uc5Y94ddEpp4zJHz9JQlghoQv3nTyLnx1TEISIhHKJ/N4ImdV2KifFuOI0syuMBZgsU5CEpKQhCQkIQlJSEISkpCEJCQhCUlIQhKScKug6lHAqCMFo7Df4AJnriIUWsUMlpnboRkX9sM9Nd8nYfaE9RCXIcfJI3zCojoPAcTY0hSLo3EzYMb9Ikph5JCQhCQkIQlJSEISkpCEJCQhCUlIQhKSMFahUg8cBaVQmZxwASOP6wiFyiSob5Wmgk/YDzEgzEUa1U8zMcxbqCGFnZfRHweMkJdy6ueQTbZbmlDX4TjsdcgmO73F0ewkYObh21I22evxA/aIys5h/sIWO2A69zSOPTDSTyrCksSwmqYjLAmLVuq5S1VYKolpp2Sk+N2CSfgqCUlIQhKSEInQ3KMkl8KtfWZyKdzaKyiXQuteW8+t0Nqza8CsmiYtLNTM13I7t0LY4orTWLWmiQvtLSwHuRXae60t2OxhmbzQ3sSSuxdKDIwpCEV7w7yyITHYwjJ5YaHN2dEWht5ON9LCZVQ/ZqG9U+e62+ikvbU9/EO6RIW8k8gqvxf2L1dPqu2OcQcS2l8xWMZfqExmMOEm78xTBBQWJJYD+uv4CUc7j7LN+t5n0ktYqNQYb+/oLay7TLWNR56/7SUsFITaGcuNVj2F7g9bbj9WGUxYKAzbRlcrd6IEPhs56KSfI7K/sD9z/0ROPIi+wlVlHUbbn94amv9wGjqXvv2hF9CT+Dth1MAO7c23f4XOBz/h1oOIV9++fXe8nPVdj0Am3DQy8vT2YpX/Ptk/arodgkyoWqtObqa93uE6vd6DbTxCL1TGQPn0AL618enRqqcux+ASWguHtoAr4jUQL5ELrdVtN9PD7fQersx3Gvv3NriE0FNcXxzu5jOcROTCutWK9vaET1B/9/tEVMK+Wdar2z3gYQ86xjFu4ZFZ1m/7p/CwB9W0gVsIDc21m/AZ+otcCB/dhNM8CX+4CX+a73VwC1WzrN/3gYc96PObuIXQW9w8uBChy58gF0Kn93mvmvZ+me9wLgdhElr/In/ntnSZix/mO3Ls9zSVivvyu4puChunb0NH9b7zhguRe9zt86Gdcenw/0goCsZZMjumeAnr1hDGz60704spXIWcy7f86ELB0BLTeQmtu5rlpfhkV9Te7bMFHLsMm0YVVoykh4xdhZthmuvpU2+d21/W919u7jZQE1E4vN8vUhrCorp5wOv68/N0+vzz8cr+yX5XEVmYxpi/x2iic7xbvrlxPi3UdB3ajyRMZYG714jw2PMA97mLKMKho4k579ylPH946vGA0P79WmQhv7D+qNwaVAUx5knugn7iK1w2qC6PeZ249ISRhZJV98u11fZ7DFYqjMY7xuOm17xMFCHfhT+rtRNZqhFkpYKiThzTF/Ox30RweKEIp7AlJcALKFydR/Vo3Oh0Gs2J6jM9GkkoQROT1OrF4KtNFLdH1WIQwtK+VlKLidJYT+MfuJvp5lcI23omttadhCQkYe6Eyijvwno/30Klr0YWdqWkAutLZ5PLoP9J3zeXjYhCdCEhCbOf0N8t0EUPLBRZLjqNnkElsLAgDuIeXUs+rcUKGHy8lK9gCxQ8zvnDbIaE+ENC/CEh/pAQf0iIP/kX/g9Dju1gW75nDwAAAABJRU5ErkJggg=="
+                alt="разработка">
+            <p>
+                Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты. Ведущими своих
+                предложения меня образ проектах запятых правилами своего! Страна речью единственное проектах семь силуэт
+                гор
+                буквенных ручеек, алфавит приставка она рукописи большого языкового предупредила он коварный? Последний
+                однажды гор заголовок вершину, силуэт инициал ipsum страна, даже ручеек языкового злых моей не, речью
+                путь
+                там снова большой рекламных. Текст, грамматики напоивший запятых, семантика ему над даже коварный
+                языкового
+                жизни своего о составитель лучше рот свое встретил lorem щеке всеми. Своих языком путь одна назад?
+                Напоивший
+                обеспечивает взобравшись дороге парадигматическая это языкового, щеке безорфографичный свою агентство
+                имеет
+                своих рыбными снова диких!
+            </p>
+            <ol>
+                <li>
+                    элемент списка
+                </li>
+                <li>
+                    элемент списка
+                </li>
+                <li>
+                    элемент списка
+                </li>
+                <li>
+                    элемент списка
+                </li>
+                <li>
+                    элемент списка
+                </li>
+                <li>
+                    элемент списка
+                </li>
+            </ol>
+        </section>
+        <section id="вторая">
+            <h2>
+                Та самая вторая секция
+            </h2>
+            <p>
+                Далеко-далеко за словесными горами в стране гласных и согласных живут рыбные тексты. Рот большого
+                грустный
+                пунктуация однажды своего силуэт маленькая, напоивший, злых путь живет назад вскоре коварных несколько
+                послушавшись снова. Рекламных которое сбить повстречался вопроса если океана рыбного всеми за несколько
+                о
+                знаках взобравшись пустился ее злых безорфографичный буквенных не коварных предложения правилами,
+                родного
+                обеспечивает журчит раз диких предупреждал. Назад взобравшись свой, подпоясал великий подзаголовок
+                решила
+                что наш, инициал от всех путь рот коварных собрал буквенных однажды вершину прямо. Составитель запятой,
+                семь
+                заголовок взгляд за осталось прямо гор от всех безорфографичный раз несколько запятых, всемогущая диких?
+                Взгляд о продолжил жизни ведущими заманивший текст имени!
+            </p>
+            <div class="quote-block">
+                <blockquote>
+                    <p>
+                        Верстать - это здорово! Признаюсь, я частенько верстаю перед съемками, чтобы снять напряжение.
+                        Жизнь
+                        актера - это, конечно круто, но если честно, в выходной денёк я не могу удержаться от того,
+                        чтобы
+                        уединиться у себя в комнатушке с чашечкой кофе, вс кодом и курсами на aroken.ru!
+                    </p>
+                </blockquote>
+                - Джеймс Стэтхем
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-block">
+            <h5>ссылки</h5>
+            <ul>
+                <li>
+                    <a
+                        href="https://disk.yandex.ru/d/5EbJhCbqu6vkFg/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0/%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%20c%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8.jpg">Ссылка
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://disk.yandex.ru/d/5EbJhCbqu6vkFg/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0/%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%20c%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8.jpg">Ссылка
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://disk.yandex.ru/d/5EbJhCbqu6vkFg/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0/%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%20c%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8.jpg">Ссылка
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://disk.yandex.ru/d/5EbJhCbqu6vkFg/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0/%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%20c%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8.jpg">Ссылка
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://disk.yandex.ru/d/5EbJhCbqu6vkFg/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0/%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%20c%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8.jpg">Ссылка
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://disk.yandex.ru/d/5EbJhCbqu6vkFg/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0/%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%20c%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8.jpg">Ссылка
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://disk.yandex.ru/d/5EbJhCbqu6vkFg/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0/%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%20c%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8.jpg">Ссылка
+                    </a>
+                </li>
+                <li>
+                    <a
+                        href="https://disk.yandex.ru/d/5EbJhCbqu6vkFg/%D0%9C%D0%B0%D1%82%D0%B5%D1%80%D0%B8%D0%B0%D0%BB%D1%8B%20%D0%B4%D0%BB%D1%8F%20%D1%87%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0/%D0%BC%D0%B0%D0%BA%D0%B5%D1%82%20c%20%D0%BF%D0%BE%D0%BC%D0%B5%D1%82%D0%BA%D0%B0%D0%BC%D0%B8.jpg">Ссылка
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+
+
+</body>
