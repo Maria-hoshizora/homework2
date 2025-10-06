@@ -1,0 +1,47 @@
+.some-text {
+    font-family: "open suns", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+.text-2 {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    text-align: left;
+    font-style: normal;
+    text-decoration: none;
+    line-height: 25px;
+    font-style: normal;
+}
+
+.text3 {
+    font-family: "Newsreader", serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 5px;
+    text-align: center;
+    font-style: normal;
+}
+
+.block4 {
+    font-family: "Times New Romand" serif;
+    text-decoration: overline;
+    text-decoration: wavy;
+    word-spacing: 30px;
+    text-transform: none;
+    text-shadow: 1 -1 1 #cb69e3;
+    text-align: left;
+    font-style: normal;
+}
+
+.last-text {
+    font-family: "Times New Romand" serif;
+    letter-spacing: 5px;
+    text-decoration: double;
+    text-decoration: underline;
+    text-shadow: 1 -1 1 #417448;
+    text-align: left;
+    font-style: normal;
+}
