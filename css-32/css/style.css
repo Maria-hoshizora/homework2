@@ -10,7 +10,7 @@
     font-weight: 700;
     text-align: left;
     font-style: normal;
-    text-decoration: none;
+    text-decoration: line-through;
     line-height: 25px;
     font-style: normal;
 }
@@ -26,22 +26,21 @@
 }
 
 .block4 {
-    font-family: "Times New Romand" serif;
-    text-decoration: overline;
-    text-decoration: wavy;
+    font-family: "Times New Romand", sans-serif;
+    text-decoration: overline wavy;
     word-spacing: 30px;
     text-transform: none;
-    text-shadow: 1 -1 1 #cb69e3;
+    text-shadow: 1px -1px 1px #cb69e3;
     text-align: left;
     font-style: normal;
 }
 
 .last-text {
-    font-family: "Times New Romand" serif;
+    font-family: "Times New Romand", sans-serif;
     letter-spacing: 5px;
-    text-decoration: double;
-    text-decoration: underline;
-    text-shadow: 1 -1 1 #417448;
+    text-decoration: underline double;
+    text-shadow: 1px -1px 1px #417448;
     text-align: left;
     font-style: normal;
 }
+
