@@ -1,0 +1,56 @@
+.some-text {
+    font-family: "open suns", sans-serif;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 300;
+    font-style: italic;
+}
+.text-2 {
+    font-family: "Old Standard TT", serif;
+    font-weight: 700;
+    text-align: left;
+    font-style: normal;
+    text-decoration: line-through;
+    line-height: 25px;
+    font-style: normal;
+}
+
+.text3 {
+    font-family: "Newsreader", serif;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 20px;
+    text-align: center;
+    font-style: normal;
+}
+
+.block4 {
+    font-family: "Times New Romand", sans-serif;
+    text-decoration: overline wavy;
+    word-spacing: 30px;
+    text-transform: none;
+    text-shadow: 1px -1px 1px #cb69e3;
+    text-align: left;
+    font-style: normal;
+}
+
+.last-text {
+    font-family: "Times New Romand", sans-serif;
+    letter-spacing: 5px;
+    text-decoration: underline double;
+    text-shadow: 1px -1px 1px #417448;
+    text-align: left;
+    font-style: normal;
+}
+
+.double-line {
+    font-family: "Stick", "Shippori Mincho", serif;
+    color: #0047b1;
+    font-weight: 500;
+    line-height: 3;
+    font-size: 30;
+    font-style: normal;
+    text-decoration: underline dotted rgb(134, 5, 233);
+    text-align: right;
+}
