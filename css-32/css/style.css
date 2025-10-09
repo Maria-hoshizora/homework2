@@ -20,7 +20,7 @@
     font-weight: 400;
     text-decoration: none;
     text-transform: uppercase;
-    line-height: 5px;
+    line-height: 20px;
     text-align: center;
     font-style: normal;
 }
@@ -44,3 +44,13 @@
     font-style: normal;
 }
 
+.double-line {
+    font-family: "Stick", "Shippori Mincho", serif;
+    color: #0047b1;
+    font-weight: 500;
+    line-height: 3;
+    font-size: 30;
+    font-style: normal;
+    text-decoration: underline dotted rgb(134, 5, 233);
+    text-align: right;
+}
