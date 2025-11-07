@@ -1,0 +1,36 @@
+body {
+    background-color: #34343b;
+    color: #fff;
+    
+}
+
+.container {
+    display: flex;
+    width: 800px;
+    height: 800px;
+    background: #444444;
+    border: 7px dashed black;
+}
+
+.block-red {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(120deg, #c31717e0, #a40606b5);
+    transform: translate(370px,586px);
+
+}
+
+.block-green {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(120deg, #17b02be0, #089635b5);
+    transform: translate(109px, -98px) rotate(110deg);
+}
+
+.block-blue {
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(120deg, #2572bfe0, #135a91b5);
+    transform: translate(505px, -320px) rotate(180deg) scale(1.8); 
+
+}
