@@ -1,32 +1,4 @@
-html {
-    font-family: "Ubuntu", "Oswald", sans-serif;
-    font-weight: 400;
-}
 
-body {
-    box-sizing: border-box;
-}
-
-.article {
-    padding-top: 80px;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    margin: 0;
-}
-
-.container {
-    max-width: 1250px;
-    margin: 0px auto;
-    padding: 0px 15px;
-
-}
 
 .article-tittle {
     max-width: 596px;
@@ -134,6 +106,10 @@ p {
     bottom: 197px;
 }
 
+.play-button:hover {
+    background: #2883d2;
+}
+
 .article-play-button {
     position: absolute;
     bottom: 270px;
@@ -155,3 +131,4 @@ p {
     height: auto;
     padding: 40px 0px 40px 0px;
 }
+
