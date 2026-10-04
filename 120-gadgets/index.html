@@ -1,0 +1,186 @@
+<!doctype html>
+<html class="page" lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./css/base/normalize.css" />
+		<link rel="stylesheet" href="./css/index.css" />
+		<link
+			rel="shortcut icon"
+			href="./icons/logo-icon.svg"
+			type="image/x-icon"
+		/>
+		<script src="./js/index.js" type="module"></script>
+		<title>Мобилки и гаджеты</title>
+	</head>
+	<body class="page__body">
+		<header class="header header--fixed">
+			<container class="container header__container">
+				<a href="#" class="logo header__logo">
+					<img
+						class="logo__img"
+						src="./icons/logo-icon.svg"
+						width="170"
+						height="21"
+						alt="Логотип черного цвета California"
+					/>
+				</a>
+				<nav
+					class="menu header__menu"
+					id="header__menu"
+					aria-label="Главное меню"
+				>
+					<ul class="menu__list">
+						<li class="menu__item">
+							<a href="#all products" class="menu__link">all products</a>
+						</li>
+						<li class="menu__item menu__detail">
+							<a href="#Solutions" class="menu__link menu__detail-link"
+								>Solutions
+								<svg class="menu__detail-icon" width="12" height="8">
+									<use href="./icons/sprite.svg#arrow"></use>
+								</svg>
+							</a>
+							<ul class="menu__secondary">
+								<li class="menu__secondary-item">
+									<a href="##" class="menu__secondary-link">Apple</a>
+								</li>
+								<li class="menu__secondary-item">
+									<a href="##" class="menu__secondary-link">Samsung</a>
+								</li>
+								<li class="menu__secondary-item">
+									<a href="##" class="menu__secondary-link">Xiaomi</a>
+								</li>
+								<li class="menu__secondary-item">
+									<a href="##" class="menu__secondary-link">realme</a>
+								</li>
+								<li class="menu__secondary-item">
+									<a href="##" class="menu__secondary-link">TECNO</a>
+								</li>
+								<li class="menu__secondary-item">
+									<a href="##" class="menu__secondary-link">HONOR</a>
+								</li>
+							</ul>
+						</li>
+						<li class="menu__item">
+							<a href="#ABOUT" class="menu__link">ABOUT</a>
+						</li>
+						<li class="menu__item">
+							<a href="#Support" class="menu__link">Support</a>
+						</li>
+					</ul>
+				</nav>
+
+				<div class="header__actions">
+					<div class="header__search-wrapper">
+						<button
+							class="header__actions-button header__search-toggle"
+							type="button"
+							aria-label="Поиск"
+							aria-expanded="false"
+							aria-controls="header-search"
+						>
+							<svg width="24" height="24">
+								<use
+									class="header__actions-icon"
+									href="./icons/sprite.svg#search"
+								></use>
+							</svg>
+						</button>
+						<div class="header__search search" id="header-search">
+							<form class="search__form" role="search">
+								<input
+									id="search"
+									name="search"
+									class="search__form-input"
+									type="search"
+									placeholder="Search products"
+									aria-label="Поиск товаров"
+								/>
+								<button class="search__form-submit" type="submit">
+									<svg width="20" height="20">
+										<use
+											class="search__form-icon"
+											href="./icons/sprite.svg#search"
+										></use>
+									</svg>
+								</button>
+							</form>
+						</div>
+					</div>
+					<button
+						class="header__actions-button"
+						title="Корзина"
+						aria-label="Корзина"
+					>
+						<svg width="24" height="24">
+							<use
+								class="header__actios-icon"
+								href="./icons/sprite.svg#card"
+							></use>
+						</svg>
+					</button>
+					<button class="header__burger burger" aria-label="Открыть меню">
+						<svg
+							width="24"
+							height="24"
+							aria-expanded="false"
+							aria-controls="header__menu"
+						>
+							<use
+								class="burger__icon-menu"
+								href="./icons/sprite.svg#menu-burger"
+							></use>
+							<use
+								class="burger__icon-cross"
+								href="./icons/sprite.svg#menu-cross"
+							></use>
+						</svg>
+					</button>
+				</div>
+			</container>
+		</header>
+		<section class="hero">
+			<div class="container hero__container">
+				<section class="hero__section-info info-section">
+					<div class="info-section__text">
+						<h1 class="hero__title">The new phones are <wbr> here take a look.</h1>
+						<p class="hero__paragraph">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+							Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.
+						</p>
+					</div>
+					<div class="hero__decorations">
+						<div class="hero__decorations-arrows hero__arrow">
+							<svg class="hero__arrow-1" width="14" height="26">
+								<use href="./icons/sprite.svg#hero-arrow"></use>
+							</svg>
+							<svg class="hero__arrow-2" width="14" height="26">
+								<use href="./icons/sprite.svg#hero-arrow"></use>
+							</svg>
+						</div>
+						<div class="hero__decorations-br">
+							<div class="hero__br-1"></div>
+							<div class="hero__br-2"></div>
+							<div class="hero__br-3"></div>
+						</div>
+					</div>
+					<div class="info-section__button">
+						<button class="hero__button button" width="170" height="50">
+							<a class="button-link" href="#">Explore</a>
+						</button>
+					</div>
+				</section>
+				<section class="hero__section-img img-section">
+					<img
+						class="hero__img"
+						width="647"
+						height="550"
+						src="./images/hero-phone-img.png"
+						alt="телефон фирмы Apple, Iphone 16 Pro Max синего цвета"
+					/>
+				</section>
+			</div>
+		</section>
+	</body>
+</html>
