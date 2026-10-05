@@ -23,7 +23,7 @@
 }
 
 @media (width <= 992px) {
-	.header__search-wrapper.is-open .header__container {
+	.header__actions-wrapper.is-open .header__container {
 		gap: 21px;
 	}
 }

@@ -1,5 +1,5 @@
-const searchWrapper = document.querySelector(".header__search-wrapper");
-const searchToggle = document.querySelector(".header__search-toggle");
+const searchWrapper = document.querySelector(".header__actions-wrapper");
+const searchToggle = document.querySelector(".header__actions-toggle");
 const searchInput = document.querySelector(".search__form-input");
 
 if (searchWrapper && searchToggle && searchInput) {
