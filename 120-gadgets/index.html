@@ -15,7 +15,7 @@
 	</head>
 	<body class="page__body">
 		<header class="header header--fixed">
-			<container class="container header__container">
+			<div class="container header__container">
 				<a href="#" class="logo header__logo">
 					<img
 						class="logo__img"
@@ -32,7 +32,7 @@
 				>
 					<ul class="menu__list">
 						<li class="menu__item">
-							<a href="#all products" class="menu__link">all products</a>
+							<a href="#all-products" class="menu__link">all products</a>
 						</li>
 						<li class="menu__item menu__detail">
 							<a href="#Solutions" class="menu__link menu__detail-link"
@@ -41,24 +41,24 @@
 									<use href="./icons/sprite.svg#arrow"></use>
 								</svg>
 							</a>
-							<ul class="menu__secondary">
-								<li class="menu__secondary-item">
-									<a href="##" class="menu__secondary-link">Apple</a>
+							<ul class="menu__dropdown">
+								<li class="menu__dropdown-item">
+									<a href="#" class="menu__dropdown-link">Apple</a>
 								</li>
-								<li class="menu__secondary-item">
-									<a href="##" class="menu__secondary-link">Samsung</a>
+								<li class="menu__dropdown-item">
+									<a href="#" class="menu__dropdown-link">Samsung</a>
 								</li>
-								<li class="menu__secondary-item">
-									<a href="##" class="menu__secondary-link">Xiaomi</a>
+								<li class="menu__dropdown-item">
+									<a href="#" class="menu__dropdown-link">Xiaomi</a>
 								</li>
-								<li class="menu__secondary-item">
-									<a href="##" class="menu__secondary-link">realme</a>
+								<li class="menu__dropdown-item">
+									<a href="#" class="menu__dropdown-link">realme</a>
 								</li>
-								<li class="menu__secondary-item">
-									<a href="##" class="menu__secondary-link">TECNO</a>
+								<li class="menu__dropdown-item">
+									<a href="#" class="menu__dropdown-link">TECNO</a>
 								</li>
-								<li class="menu__secondary-item">
-									<a href="##" class="menu__secondary-link">HONOR</a>
+								<li class="menu__dropdown-item">
+									<a href="#" class="menu__dropdown-link">HONOR</a>
 								</li>
 							</ul>
 						</li>
@@ -126,6 +126,8 @@
 							height="24"
 							aria-expanded="false"
 							aria-controls="header__menu"
+							aria-label="Бургер-меню"
+							role="button"
 						>
 							<use
 								class="burger__icon-menu"
@@ -138,40 +140,40 @@
 						</svg>
 					</button>
 				</div>
-			</container>
+			</div>
 		</header>
 		<section class="hero">
 			<div class="container hero__container">
 				<section class="hero__section-info info-section">
 					<div class="info-section__text">
-						<h1 class="hero__title">The new phones are <wbr> here take a look.</h1>
+						<h1 class="hero__title">
+							The new phones are <wbr /> here take a look.
+						</h1>
 						<p class="hero__paragraph">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 							Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.
 						</p>
 					</div>
 					<div class="hero__decorations">
-						<div class="hero__decorations-arrows hero__arrow">
-							<svg class="hero__arrow-1" width="14" height="26">
+						<div class="hero__decorations-arrows">
+							<svg class="hero__decorations-arrows--1" width="14" height="26">
 								<use href="./icons/sprite.svg#hero-arrow"></use>
 							</svg>
-							<svg class="hero__arrow-2" width="14" height="26">
+							<svg class="hero__decorations-arrows--2" width="14" height="26">
 								<use href="./icons/sprite.svg#hero-arrow"></use>
 							</svg>
 						</div>
 						<div class="hero__decorations-br">
-							<div class="hero__br-1"></div>
-							<div class="hero__br-2"></div>
-							<div class="hero__br-3"></div>
+							<div class="hero__decorations-br--1"></div>
+							<div class="hero__decorations-br--2"></div>
+							<div class="hero__decorations-br--3"></div>
 						</div>
 					</div>
 					<div class="info-section__button">
-						<button class="hero__button button" width="170" height="50">
-							<a class="button-link" href="#">Explore</a>
-						</button>
+						<button class="button">Explore</button>
 					</div>
 				</section>
-				<section class="hero__section-img img-section">
+				<section class="hero__img">
 					<img
 						class="hero__img"
 						width="647"
@@ -180,6 +182,68 @@
 						alt="телефон фирмы Apple, Iphone 16 Pro Max синего цвета"
 					/>
 				</section>
+			</div>
+		</section>
+		<section class="categories">
+			<div class="container categories__container">
+				<header class="categories__header">
+					<h2 class="categories__title title-medium">
+						Shop our latest offers and categories
+					</h2>
+					<p class="categories__paragraph">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
+						in est dui, aliquam, tempor. Faucibus morbi turpis. Lorem ipsum
+						dolor sit amet, consectetur adipiscing elit.
+					</p>
+				</header>
+				<article class="categories__articles">
+					<ul class="categories__articles-list">
+						<li class="categories__articles-card categories__card card">
+							<img
+								class="categories__card-img"
+								src="./images/categories-laptop-img.png"
+								alt="Серый ноутбук фирмы Apple"
+							/>
+							<div class="card__text-wrapper">
+								<h3 class="categories__card-title">laptops</h3>
+								<p class="categories__card-text">True Laptop Solution</p>
+							</div>
+						</li>
+						<li class="categories__articles-card">
+							<img
+								class="categories__card-img"
+								src="./images/categories-watch-img.png"
+								alt="Кремовый ремешок от часов фирмы Apple"
+							/>
+							<div class="card__text-wrapper">
+								<h3 class="categories__card-title">Watch</h3>
+								<p class="categories__card-text">Not just stylisht</p>
+							</div>
+						</li>
+						<li class="categories__articles-card">
+							<img
+								class="categories__card-img"
+								src="./images/categories-phone-img.png"
+								alt="Два телефона синего и зеленого цветов фирмы Apple"
+							/>
+							<div class="card__text-wrapper">
+								<h3 class="categories__card-title">Phones</h3>
+								<p class="categories__card-text">Your day to day life</p>
+							</div>
+						</li>
+						<li class="categories__articles-card">
+							<img
+								class="categories__card-img"
+								src="./images/categories-pad-img.png"
+								alt="Планшет фирмы Apple"
+							/>
+							<div class="card__text-wrapper">
+								<h3 class="categories__card-title">Tablet</h3>
+								<p class="categories__card-text">Empower your work</p>
+							</div>
+						</li>
+					</ul>
+				</article>
 			</div>
 		</section>
 	</body>

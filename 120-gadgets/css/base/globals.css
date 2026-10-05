@@ -2,6 +2,16 @@
 	box-sizing: border-box;
 }
 
+.page__body {
+	min-width: 375px;
+}
+
+.container {
+	max-width: 1320px;
+	margin-inline: auto;
+	padding: 0 10px;
+}
+
 *,
 *::before,
 *::after {
@@ -13,22 +23,12 @@ button {
 	all: unset;
 }
 
-.page__body {
-	min-width: 375px;
-}
-
 h1 {
 	font-family: var(--second-family);
 	font-weight: 400;
 	font-size: 58px;
 	line-height: 120%;
 	color: #000;
-}
-
-.container {
-	max-width: 1320px;
-	margin-inline: auto;
-	padding: 0 10px;
 }
 
 img {
@@ -42,6 +42,15 @@ button:focus-visible {
 	outline: 1px solid #4f6c63;
 	outline-offset: 2px;
 	border-radius: 2px;
+}
+
+.title-medium {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 42px;
+	line-height: 125%;
+	text-align: center;
+	color: #000;
 }
 
 .button {
@@ -69,7 +78,7 @@ button:focus-visible {
 	box-shadow: 0px 0px 16px 2px #96aca5cc;
 }
 
-.button-link {
+.button {
 	font-family: var(--font-family);
 	font-weight: 400;
 	font-size: 18px;
