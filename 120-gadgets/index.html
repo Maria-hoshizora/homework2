@@ -87,7 +87,7 @@
 								></use>
 							</svg>
 						</button>
-						<div class="header__actions-search search" id="header-search">
+						<!-- <div class="header__actions-search search" id="header-search">
 							<form class="search__form" role="search">
 								<input
 									id="search"
@@ -106,7 +106,7 @@
 									</svg>
 								</button>
 							</form>
-						</div>
+						</div> -->
 					</div>
 					<button
 						class="header__actions-button"
@@ -115,7 +115,7 @@
 					>
 						<svg width="24" height="24">
 							<use
-								class="header__actios-icon"
+								class="header__actions-icon"
 								href="./icons/sprite.svg#card"
 							></use>
 						</svg>
@@ -145,33 +145,14 @@
 		<section class="hero">
 			<div class="container hero__container">
 				<div class="hero__section-info info-section">
-					<div class="info-section__text">
-						<h1 class="hero__title">
-							The new phones are <wbr /> here take a look.
-						</h1>
-						<p class="hero__paragraph">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-							Scelerisque in est dui, aliquam, tempor. Faucibus morbi turpis.
-						</p>
-					</div>
-					<div class="hero__decorations">
-						<div class="hero__decorations-arrows">
-							<svg class="hero__decorations-arrows--1" width="14" height="26">
-								<use href="./icons/sprite.svg#hero-arrow"></use>
-							</svg>
-							<svg class="hero__decorations-arrows--2" width="14" height="26">
-								<use href="./icons/sprite.svg#hero-arrow"></use>
-							</svg>
-						</div>
-						<div class="hero__decorations-br">
-							<div class="hero__decorations-br--1"></div>
-							<div class="hero__decorations-br--2"></div>
-							<div class="hero__decorations-br--3"></div>
-						</div>
-					</div>
-					<div class="info-section__button">
-						<button class="button">Explore</button>
-					</div>
+					<h1 class="hero__title">
+						The new phones are <wbr /> here take a look.
+					</h1>
+					<p class="hero__description">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
+						in est dui, aliquam, tempor. Faucibus morbi turpis.
+					</p>
+					<a href="#" class="hero__btn button">Explore</a>
 				</div>
 				<div class="hero__img">
 					<img
@@ -190,60 +171,69 @@
 					<h2 class="categories__title title-medium">
 						Shop our latest offers and categories
 					</h2>
-					<p class="categories__paragraph">
+					<p class="categories__text text-md">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Scelerisque
 						in est dui, aliquam, tempor. Faucibus morbi turpis. Lorem ipsum
 						dolor sit amet, consectetur adipiscing elit.
 					</p>
 				</header>
-				<article class="categories__articles">
-					<ul class="categories__articles-list">
-						<li class="categories__articles-card categories__card card">
-							<img
-								class="categories__card-img"
-								src="./images/categories-laptop-img.png"
-								alt="Серый ноутбук фирмы Apple"
-							/>
-							<div class="card__text-wrapper">
-								<h3 class="categories__card-title">laptops</h3>
-								<p class="categories__card-text">True Laptop Solution</p>
-							</div>
-						</li>
-						<li class="categories__articles-card">
-							<img
-								class="categories__card-img"
-								src="./images/categories-watch-img.png"
-								alt="Кремовый ремешок от часов фирмы Apple"
-							/>
-							<div class="card__text-wrapper">
-								<h3 class="categories__card-title">Watch</h3>
-								<p class="categories__card-text">Not just stylisht</p>
-							</div>
-						</li>
-						<li class="categories__articles-card">
-							<img
-								class="categories__card-img"
-								src="./images/categories-phone-img.png"
-								alt="Два телефона синего и зеленого цветов фирмы Apple"
-							/>
-							<div class="card__text-wrapper">
-								<h3 class="categories__card-title">Phones</h3>
-								<p class="categories__card-text">Your day to day life</p>
-							</div>
-						</li>
-						<li class="categories__articles-card">
-							<img
-								class="categories__card-img"
-								src="./images/categories-pad-img.png"
-								alt="Планшет фирмы Apple"
-							/>
-							<div class="card__text-wrapper">
-								<h3 class="categories__card-title">Tablet</h3>
-								<p class="categories__card-text">Empower your work</p>
-							</div>
-						</li>
-					</ul>
-				</article>
+				<div class="categories__articles-container">
+					<article
+						class="categories__articles-item--laptop categories__articles-item"
+					>
+						<img
+							class="categories__img"
+							src="./images/categories-laptop-img.png"
+							alt="Серый ноутбук фирмы Apple"
+						/>
+						<div class="article__text-wrapper--laptop">
+							<h3 class="categories__article-title">laptops</h3>
+							<p class="categories__article-text">
+								True Laptop <br />
+								Solution
+							</p>
+						</div>
+					</article>
+					<article
+						class="categories__articles-item--watch categories__articles-item"
+					>
+						<img
+							class="categories__img"
+							src="./images/categories-watch-img.png"
+							alt="Кремовый ремешок от часов фирмы Apple"
+						/>
+						<div class="article__text-wrapper--watch">
+							<h3 class="categories__article-title">Watch</h3>
+							<p class="categories__article-text">Not just stylisht</p>
+						</div>
+					</article>
+					<article
+						class="categories__articles-item--phone categories__articles-item"
+					>
+						<img
+							class="categories__img--phone"
+							src="./images/categories-phone-img.png"
+							alt="Два телефона синего и зеленого цветов фирмы Apple"
+						/>
+						<div class="article__text-wrapper--phone">
+							<h3 class="categories__article-title">Phones</h3>
+							<p class="categories__article-text">Your day to day life</p>
+						</div>
+					</article>
+					<article
+						class="categories__articles-item--pad categories__articles-item"
+					>
+					<div class="article__text-wrapper--pad">
+						<h3 class="categories__article-title">Tablet</h3>
+						<p class="categories__article-text">Empower your work</p>
+					</div>
+						<img
+							class="categories__img"
+							src="./images/categories-pad-img.png"
+							alt="Планшет фирмы Apple"
+						/>
+					</article>
+				</div>
 			</div>
 		</section>
 	</body>

@@ -1,3 +1,150 @@
 .categories {
-    display: none;
+	margin-bottom: 53px;
 }
+
+.categories__header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 9px;
+	margin-bottom: 56px;
+}
+
+@media (width <= 768px) {
+	.categories__header {
+		gap: 15px;
+	}
+}
+
+.categories__title {
+	padding-inline: 186px;
+	padding-top: 19px;
+}
+
+@media (width <= 992px) {
+	.categories__title {
+		padding-inline: 110px;
+	}
+}
+
+.categories__text {
+	font-family: var(--second-family);
+	max-width: 628px;
+}
+
+.categories__articles-item {
+	box-shadow: 0 4px 35px 0 var(--shadow-color);
+}
+
+.categories__articles-container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 16px;
+	max-height: 792px;
+}
+
+.categories__articles-item--laptop {
+	grid-column: span 2;
+	display: flex;
+	flex-direction: column;
+	padding-inline: 42px;
+}
+
+.categories__articles-item--laptop img {
+	width: clamp(300px, 13.942rem + 20.51vw, 500px);
+	height: auto;
+}
+
+.article__text-wrapper--laptop {
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+}
+
+.categories__articles-item--watch {
+	grid-column: span 2;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	max-height: 270px;
+	padding-inline: clamp(2rem, 0.268rem + 2.79vw, 2.625rem);
+	margin-top: clamp(1rem, -5.927rem + 11.17vw, 3.5rem);
+	margin-bottom: -22px;
+	overflow: hidden;
+}
+
+.categories__articles-item--watch img {
+	width: clamp(15.625rem, -7.062rem + 36.59vw, 23.813rem);
+	max-width: auto;
+	height: 100%;
+	object-fit: cover;
+}
+
+.article__text-wrapper--watch {
+	display: flex;
+	flex-direction: column;
+	text-align: right;
+}
+
+.categories__articles-item--phone {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 43px;
+	overflow: hidden;
+	grid-column: 3;
+	grid-row: 1 / 3;
+}
+
+.categories__img--phone {
+	transform: translateX(16px);
+	object-fit: cover;
+}
+
+.article__text-wrapper--phone {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	align-items: center;
+	padding-inline: 31px;
+}
+
+.categories__articles-item--pad {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	gap: 42px;
+	grid-column: 4;
+	grid-row: 1 / 3;
+}
+
+.article__text-wrapper--pad {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	padding-inline: 40px;
+}
+
+/* @media (width < 992px) {
+	.categories__articles-container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-template-areas:
+			"laptop laptop"
+			"watch  watch"
+			"phone pad";
+		gap: 20px;
+	}
+
+	.categories__articles-item--laptop {
+		height: auto;
+		min-height: 350px;
+	}
+
+	.categories__articles-item--watch {
+		height: auto;
+		min-height: 350px;
+	}
+} */

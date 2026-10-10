@@ -1,3 +1,4 @@
+
 .menu__list {
 	display: flex;
 	align-items: center;
@@ -81,6 +82,12 @@
 	}
 }
 
+@media(width > 992px) {
+	.menu__dropdown {
+		display: none;
+	}
+}
+
 @media (width <= 992px) {
 	.menu__dropdown {
 		flex-direction: column;
@@ -116,3 +123,5 @@
 .menu__detail-icon {
 	stroke: currentColor;
 }
+
+

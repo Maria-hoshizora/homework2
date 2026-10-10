@@ -47,10 +47,36 @@ button:focus-visible {
 .title-medium {
 	font-family: var(--second-family);
 	font-weight: 400;
-	font-size: 42px;
+	font-size: clamp(35px, 1.96rem + 0.97vw, 42px);
 	line-height: 125%;
 	text-align: center;
+	color: var(--text-color);
+}
+
+.text-md {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
+	text-align: center;
+	color: var(--text-color);
+}
+
+
+.categories__article-title {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 15px;
+	line-height: 128%;
+	text-align: right;
 	color: #000;
+}
+
+.categories__article-text {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 32px;
+	line-height: 120%;
+	color: var(--text-color);
 }
 
 .button {
@@ -84,5 +110,5 @@ button:focus-visible {
 	font-size: 18px;
 	line-height: 120%;
 	text-transform: capitalize;
-	color: #000;
+	color: var(--text-color);
 }

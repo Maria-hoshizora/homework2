@@ -102,10 +102,13 @@
 .header__actions {
 	display: flex;
 	gap: 21px;
+	cursor: pointer;
+	color: black;
+	z-index: 10;
 }
 
 .header__actions-button {
-	transition: var(--transition-time);
+	transition: opacity var(--transition-time);
 }
 
 @media (any-hover: hover) {
