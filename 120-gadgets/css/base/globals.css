@@ -8,6 +8,7 @@
 
 .container {
 	max-width: 1320px;
+	min-width: 375px;
 	margin-inline: auto;
 	padding: 0 10px;
 }
@@ -54,6 +55,7 @@ button:focus-visible {
 }
 
 .text-md {
+	font-family: var(--second-family);
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 120%;
@@ -61,8 +63,20 @@ button:focus-visible {
 	color: var(--text-color);
 }
 
+@media (width <= 992px) {
+	.text-md {
+		font-size: 16px;
+	}
+}
+
 .article__img-wrapper {
 	overflow: hidden;
+}
+
+@media (width < 992px) {
+	.article__img-wrapper img {
+		flex-shrink: 0;
+	}
 }
 
 .categories__article-title {
@@ -82,7 +96,7 @@ button:focus-visible {
 	color: var(--text-color);
 }
 
-@media(width <= 992px) {
+@media (width <= 992px) {
 	.categories__article-text {
 		font-size: 25px;
 		line-height: 100%;
