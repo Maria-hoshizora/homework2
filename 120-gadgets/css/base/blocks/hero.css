@@ -115,6 +115,7 @@
 .hero__img {
 	display: flex;
 	max-width: 647px;
+	width: 100%;
 	height: auto;
 }
 

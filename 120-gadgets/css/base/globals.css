@@ -100,6 +100,15 @@ button:focus-visible {
 	.categories__article-text {
 		font-size: 25px;
 		line-height: 100%;
+		text-align: center;
+	}
+}
+
+@media (width <= 768px) {
+	.categories__article-text {
+		font-size: 23px;
+		line-height: 100%;
+		text-align: center;
 	}
 }
 
