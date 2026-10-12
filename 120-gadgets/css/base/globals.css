@@ -61,6 +61,9 @@ button:focus-visible {
 	color: var(--text-color);
 }
 
+.article__img-wrapper {
+	overflow: hidden;
+}
 
 .categories__article-title {
 	font-family: var(--font-family);
@@ -77,6 +80,13 @@ button:focus-visible {
 	font-size: 32px;
 	line-height: 120%;
 	color: var(--text-color);
+}
+
+@media(width <= 992px) {
+	.categories__article-text {
+		font-size: 25px;
+		line-height: 100%;
+	}
 }
 
 .button {
