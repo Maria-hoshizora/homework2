@@ -56,9 +56,6 @@ button:focus-visible {
 
 .text-md {
 	font-family: var(--second-family);
-	font-weight: 400;
-	font-size: 14px;
-	line-height: 120%;
 	text-align: center;
 	color: var(--text-color);
 }
@@ -145,3 +142,4 @@ button:focus-visible {
 	text-transform: capitalize;
 	color: var(--text-color);
 }
+

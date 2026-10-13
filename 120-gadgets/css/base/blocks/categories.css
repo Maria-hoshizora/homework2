@@ -45,19 +45,22 @@
 }
 
 .categories__text {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 120%;
 	max-width: 628px;
 }
 
 @media (width <= 768px) {
 	.categories__text {
-	max-width: 500px;
-}
+		max-width: 500px;
+	}
 }
 
 @media (width <= 576px) {
 	.categories__text {
-	max-width: 400px;
-}
+		max-width: 400px;
+	}
 }
 
 @media (width <= 992px) {
