@@ -67,7 +67,6 @@
 @media (width <= 576px) {
 	.limited__product-wrapper {
 		padding-inline: 0;
-		gap: 25px;
 	}
 }
 
