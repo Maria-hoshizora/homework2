@@ -20,6 +20,12 @@
 	justify-content: space-between;
 }
 
+@media (width > 768px) {
+	.header__logo {
+		margin-right: clamp(25px, -11.585rem + 21.21vw, 120px);
+	}
+}
+
 @media (width > 767px) {
 	.header__logo {
 		margin-right: 15px;
