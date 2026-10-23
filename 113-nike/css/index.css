@@ -14,3 +14,5 @@
 @import "./base/blocks/characteristics.css";
 @import "./base/blocks/top-models.css";
 @import "./base/blocks/footer.css";
+@import "./base/blocks/modal.css";
+@import "./base/blocks/modal-buy.css";
