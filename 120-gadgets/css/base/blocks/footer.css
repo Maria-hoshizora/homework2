@@ -1,0 +1,144 @@
+.footer {
+	background: var(--secondary-color);
+	border-top: 1px solid var(--accent-color);
+}
+
+.footer__container {
+	width: 100%;
+}
+
+.footer__info {
+	display: flex;
+	gap: 90px;
+	margin-top: 45px;
+	padding-bottom: 80px;
+	border-bottom: 1px solid var(--accent-color);
+}
+
+@media (width <= 992px) {
+	.footer__info {
+		gap: 50px;
+	}
+}
+
+@media (width <= 768px) {
+	.footer__info {
+		flex-direction: column;
+		gap: 25px;
+	}
+}
+
+.footer__header {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	gap: 18px;
+}
+
+.footer__text {
+	max-width: 304px;
+	margin-bottom: 102px;
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 120%;
+	color: var(--text-color);
+}
+
+@media (width <= 768px) {
+	.footer__text {
+		margin-bottom: 0px;
+	}
+
+	.footer__header {
+		margin-bottom: 25px;
+	}
+}
+
+.footer__nav-wrapper {
+	display: flex;
+	gap: 28px;
+}
+
+@media (width <= 576px) {
+	.footer__nav-wrapper {
+		flex-direction: column;
+	}
+}
+
+.footer__nav {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	gap: 15px;
+}
+
+@media (width <= 992px) {
+	.footer__nav {
+		gap: 10px;
+	}
+}
+
+.footer__nav-title {
+	font-family: var(--second-family);
+	font-weight: 400;
+	font-size: 22px;
+	line-height: 125%;
+	color: var(--text-color);
+	padding-right: 65px;
+	margin-bottom: 5px;
+}
+
+@media (width <= 992px) {
+	.footer__nav-title {
+		padding-right: clamp(25px, -7.009rem + 17.86vw, 65px);
+	}
+}
+
+@media (width <= 576px) {
+	.footer__nav-title {
+		margin-bottom: 0px;
+        transition: color var(--transition-time);
+        cursor: pointer;
+	}
+
+    @media(any-hover: hover) {
+        .footer__nav-title:hover {
+        color: #4f6c63;
+	}
+    }
+}
+
+.footer__nav-link {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 127%;
+	color: var(--text-color);
+}
+
+@media (width <= 576px) {
+	.footer__nav-link {
+		display: none;
+	}
+}
+
+.footer__end-inner {
+	display: flex;
+	align-items: center;
+	text-align: center;
+	gap: 2px;
+	padding: 53px 28px 5px;
+}
+
+.footer__end-text {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 120%;
+	color: #000;
+}
+
+.footer__end-accent {
+	font-family: var(--second-family);
+}

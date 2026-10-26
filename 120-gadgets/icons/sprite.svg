@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg">
     <symbol id="arrow" viewBox="0 0 12 8" fill="none">
         <g clip-path="url(#clip0_1_12)">
-            <path d="M11 1L6 6L1 1"  stroke-width="1.5" />
+            <path d="M11 1L6 6L1 1" stroke-width="1.5" />
         </g>
         <defs>
             <clipPath id="clip0_1_12">
@@ -41,5 +41,31 @@
 
     <symbol id="menu-cross" viewBox="0 0 24 24" fill="none">
         <path d="M18 6L6 18M6 6L18 18" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+    </symbol>
+    <symbol id="diagonal-arrow" viewBox="0 0 30 28" fill="none">
+        <path d="M7.31464 20.4816L21.9444 6.82715" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+            stroke="#151A1E" />
+        <path d="M7.31464 6.82715H21.9444V20.4816" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"
+            stroke="#151A1E" />
+    </symbol>
+    <symbol id="keyword-search" viewBox="0 0 30 29" fill="none">
+        <path
+            d="M13.75 22.9583C19.2729 22.9583 23.75 18.6304 23.75 13.2917C23.75 7.95291 19.2729 3.625 13.75 3.625C8.22715 3.625 3.75 7.95291 3.75 13.2917C3.75 18.6304 8.22715 22.9583 13.75 22.9583Z"
+            stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke="black" />
+        <path d="M26.2499 25.3749L20.8124 20.1187" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            stroke="black" />
+    </symbol>
+    <symbol id="footer-arrow" viewBox="0 0 21 18" fill="none">
+        <g clip-path="url(#clip0_1_354)">
+            <path d="M1.61539 16.6155L19.3846 1.38477" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                stroke="#08090D" />
+            <path d="M1.61539 1.38477H19.3846V16.6155" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                stroke="#08090D" />
+        </g>
+        <defs>
+            <clipPath id="clip0_1_354">
+                <rect width="21" height="18" fill="white" />
+            </clipPath>
+        </defs>
     </symbol>
 </svg>

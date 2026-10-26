@@ -143,3 +143,26 @@ button:focus-visible {
 	color: var(--text-color);
 }
 
+@media (width <= 576px) {
+	.limited__title,
+	.best__title,
+	.ideas__title {
+		padding-inline: 20px;
+	}
+}
+
+.limited__text,
+.best__text,
+.best__card-title {
+	font-weight: 400;
+	font-size: 13px;
+	line-height: 129%;
+}
+
+@media (width <= 576px) {
+	.limited__text,
+	.best__text,
+	.best__card-title {
+		max-width: 350px;
+	}
+}

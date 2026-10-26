@@ -16,26 +16,9 @@
 	padding-block: 19px 31px;
 }
 
-@media (width <= 576px) {
-	.limited__title {
-		padding-inline: 20px;
-	}
-}
 
-.limited__text {
-	font-weight: 400;
-	font-size: 13px;
-	line-height: 129%;
-}
-
-@media (width <= 576px) {
-	.limited__text {
-		max-width: 350px;
-	}
-}
 
 .limited__item--laptop .limited__product-description {
-	
     margin-bottom: 14px;
 }
 
@@ -67,6 +50,7 @@
 @media (width <= 576px) {
 	.limited__product-wrapper {
 		padding-inline: 0;
+		gap: 25px;
 	}
 }
 
@@ -75,6 +59,7 @@
 	width: 100%;
 	max-height: 396px;
 	height: 100%;
+	cursor: pointer;
 	transition:
 		box-shadow 0.5s,
 		scale 1s;
