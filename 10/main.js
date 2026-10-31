@@ -20,7 +20,8 @@ console.log(`Меня зовут ` + firstName, lastName + `, мне ` + age + `
 
 //4.
 
-//Ответ: 123456789falsetrue
+const ответ = '123456789falsetrue';
+console.log(ответ);
 
 
 
